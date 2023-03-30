@@ -1,0 +1,46 @@
+<! doctype = HTML >
+<html lang ="fr">
+	<head>
+		<meta charset ="ISO -8859 -1">
+		<title> Convertisseur Express </title>
+		<link rel ="stylesheet"href="site_part_css_2.css">
+		<link rel="icon" href="logo.png">
+	</head>
+	<body>
+		<h1> Convertisseur Express </h1>
+		<form Name = 'Form'>
+		<div>
+			<label for ="decimal"> Décimal :</label>
+			<input type ="string" id ="decimal" name ="nombre">
+		</div>
+		<div>
+			<label for ="hexadecimal"> Hexadécimal :</label>
+			<input type ="string" id ="hexadecimal" name ="nombre">
+		</div>
+		<div>
+			<label for ="binaire"> Binaire :</label>
+			<input type ="string" id ="binaire" name ="nombre">
+		</div>
+		<div>
+			<label for ="bouton"> Conversion :</label>
+			<input type="button" id ="bt" value ="Convertir" onclick ="conversion()">
+		</div>
+		<div class="btn">
+			<label for ="bouton"> Supprimer : </label>
+			<input type="button" id ="bt" value ="Reset" onclick ="reset()">
+		</div>
+		<div class="revenir">
+			<a href="https://fr.wikihow.com/convertir-un-nombre-hexad%C3%A9cimal-en-nombre-binaire-ou-en-nombre-d%C3%A9cimal">
+			Cliquer ici pour accéder à un site qui vous apprend à convertir vous même entre ces différentes bases</a>
+		</div>
+		<div class="container">
+			<a href="site_part_html.html">
+				<img src="image_fleche.png" alt="Avatar" class="image" >
+				<div class="middle">
+					<div class="text">Revenir</div>
+				</div>
+			</a>
+		</div>
+		<script src=site_part_javas.js type ="text/javascript" > </script>
+	</body>
+</html>
